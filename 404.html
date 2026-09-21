@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>页面不存在 · CET-6 & 考研英语二 复习站</title>
+<meta name="description" content="你打开的地址不存在。回到首页、去看 CET-6 复习方案或考研英语二备考策略，或直接查词。">
+<meta name="theme-color" content="#faf9f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5bd0'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3E%E8%AF%8D%3C/text%3E%3C/svg%3E">
+<!-- GitHub Pages 对 404 页面要求使用站点根路径的绝对链接，不能写 ../ -->
+<link rel="stylesheet" href="/SWJ_ENGLISH/assets/style.css">
+<style>
+  .p404 { max-width: 620px; margin: 0 auto; padding: calc(var(--topbar-h) + 56px) 20px 0; text-align: center; }
+  .p404 .code { font-size: clamp(72px, 18vw, 132px); line-height: 1; font-weight: 800; letter-spacing: -0.04em;
+                color: var(--ink); display: block; }
+  .p404 .code i { font-style: normal; color: var(--cet6); }
+  .p404 h1 { font-size: 26px; margin: 18px 0 10px; }
+  .p404 .lead { color: var(--ink-2); line-height: 1.8; }
+  .p404 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px;
+                text-align: left; margin-top: 32px; }
+  .p404 .cell { display: block; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius);
+                background: var(--panel); box-shadow: var(--shadow-sm); text-decoration: none; color: var(--ink);
+                transition: transform .16s ease, border-color .16s ease; }
+  .p404 .cell:hover { transform: translateY(-2px); border-color: var(--ink-2); }
+  .p404 .cell b { display: block; font-size: 15px; }
+  .p404 .cell span { display: block; font-size: 12.5px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
+  .p404 .back { display: inline-block; margin-top: 26px; }
+  .p404 .foot { text-align: left; margin-top: 52px; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="/SWJ_ENGLISH/index.html">
+    <span class="dot"></span><span class="dot b"></span>
+    <span>考研英语 · 复习站</span>
+  </a>
+  <div class="tools">
+    <button class="icon" data-theme-btn aria-label="切换深浅色">🌙</button>
+    <a class="icon" href="/SWJ_ENGLISH/words.html" aria-label="单词查询">📖</a>
+  </div>
+</header>
+
+<main>
+  <div class="p404">
+    <span class="code">4<i>0</i>4</span>
+    <h1>这个地址在站点里不存在</h1>
+    <p class="lead">链接可能已经失效，或者你手滑了。下面几个入口都能直接到内容页，进度（查过的词、标记的掌握状态）还保存在你自己的浏览器里，不会丢。</p>
+
+    <div class="grid">
+      <a class="cell" href="/SWJ_ENGLISH/index.html"><b>首页</b><span>从这里开始看整体安排</span></a>
+      <a class="cell" href="/SWJ_ENGLISH/cet6.html"><b>CET-6 复习方案</b><span>710 分制 · 逐题型打法</span></a>
+      <a class="cell" href="/SWJ_ENGLISH/ky2.html"><b>考研英语二备考策略</b><span>满分 100 · 做题顺序</span></a>
+      <a class="cell" href="/SWJ_ENGLISH/words.html"><b>单词查询</b><span>词表全量本地检索</span></a>
+    </div>
+
+    <a class="btn pri back" href="/SWJ_ENGLISH/index.html">← 返回首页</a>
+
+    <div class="foot">
+      <span>纯静态站点 · 无 CDN · 数据不离开本机浏览器</span>
+      <span>如果确认链接没问题，可能是部署时漏了这个文件</span>
+    </div>
+  </div>
+</main>
+
+<script>
+/* 只处理主题：读 localStorage，回退到系统偏好，不依赖站点其它脚本 */
+(function () {
+  var KEY = 'ky.site.theme';
+  function apply(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', t === 'dark' ? '#161513' : '#faf9f7');
+    var b = document.querySelector('[data-theme-btn]');
+    if (b) b.textContent = t === 'dark' ? '☀️' : '🌙';
+  }
+  var want = null;
+  try { want = localStorage.getItem(KEY); } catch (e) {}
+  var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  apply(want || (dark ? 'dark' : 'light'));
+  var btn = document.querySelector('[data-theme-btn]');
+  if (btn) btn.addEventListener('click', function () {
+    var cur = document.documentElement.getAttribute('data-theme');
+    var nxt = cur === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem(KEY, nxt); } catch (e) {}
+    apply(nxt);
+  });
+})();
+</script>
+</body>
+</html>

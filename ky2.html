@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>考研英语二 备考策略 · 做题顺序 / 完形 / 阅读 / 新题型 / 翻译 / 写作</title>
+<meta name="description" content="考研英语二备考策略：满分 100 分、180 分钟的试卷结构与分值构成、建议做题顺序与时间分配、14 天词汇批次、完形填空三大线索、阅读 A 三种铁律、新题型三个信号词、翻译六步法、小作文与大作文模板、30/60/90 天冲刺计划。">
+<meta name="theme-color" content="#faf9f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2621f'/%3E%3Ctext x='16' y='22' font-size='13' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3E%E7%A0%94%E4%BA%8C%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="icon menu-btn" id="menuBtn" aria-label="打开菜单">☰</button>
+  <a class="brand" href="index.html">
+    <span class="dot"></span><span class="dot b"></span>
+    <span>考研英语 · 复习站</span>
+  </a>
+  <div class="qjump" id="qjump">
+    <span class="ki">🔎</span>
+    <input type="search" placeholder="查词（英文 / 音标 / 中文）  按 / 聚焦" aria-label="查词">
+    <button class="go" type="button">跳转</button>
+  </div>
+  <div class="tools">
+    <button class="icon" data-theme-btn aria-label="切换深浅色">🌙</button>
+    <a class="icon" href="words.html" aria-label="单词查询">📖</a>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="nav" id="nav" data-cur="ky2">
+    <h4>考研二策略</h4>
+    <ul>
+      <li><a href="index.html">← 回首页</a></li>
+      <li><a href="cet6.html">CET-6 复习方案</a></li>
+      <li><a class="on" href="ky2.html">本页：完整策略</a></li>
+      <li><a href="words.html">单词查询</a></li>
+    </ul>
+    <h4>本页目录</h4>
+    <ul>
+      <li><a href="#overview">考试概况</a></li>
+      <li><a href="#structure">试卷结构与分值</a></li>
+      <li><a href="#order">做题顺序与时间</a></li>
+      <li><a href="#vocab">词汇：14 天 7 批</a></li>
+      <li><a href="#cloze">完形填空</a></li>
+      <li><a href="#reading">阅读 A</a></li>
+      <li><a href="#newtype">新题型</a></li>
+      <li><a href="#translation">翻译</a></li>
+      <li><a href="#writing">写作 A/B</a></li>
+      <li><a href="#plan">30/60/90 天计划</a></li>
+    </ul>
+    <h4>进度</h4>
+    <div class="stats">
+      <div class="row"><span>CET-6</span><span class="st st-cet6">0 / 720</span></div>
+      <div class="bar"><i data-prog="cet6"></i></div>
+      <div class="row"><span>考研英语二</span><span class="st st-ky2">0 / 630</span></div>
+      <div class="bar"><i class="b" data-prog="ky2"></i></div>
+      <div class="note" id="statNote">进度自动保存在本机浏览器</div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">全国硕士研究生招生考试 · 英语（二）</div>
+      <h1>考研英语二 备考策略
+        <span class="sub">满分 100 分 · 180 分钟 · 面向专业学位硕士</span>
+      </h1>
+      <p class="lead">英语二和英语一最大的区别在写作——大作文考图画而不是 essay——以及阅读只有 4 篇。整张卷子的分数分布高度集中：阅读 A 40 分、翻译 15 分、大作文 15 分，三块加起来 70 分。这份策略按「先写作文、再做阅读、完形最后」的顺序排时间，每一题都告诉你怎么用最少的分钟数拿最多的分。</p>
+    </div>
+
+    <div class="toc2">
+      <a href="#overview">考试概况</a>
+      <a href="#structure">试卷结构</a>
+      <a href="#order">做题顺序</a>
+      <a href="#vocab">词汇批次</a>
+      <a href="#cloze">完形</a>
+      <a href="#reading">阅读 A</a>
+      <a href="#newtype">新题型</a>
+      <a href="#translation">翻译</a>
+      <a href="#writing">写作</a>
+      <a href="#plan">30/60/90 天</a>
+    </div>
+
+    <section id="overview">
+      <div class="sec-head"><h2>一、考试概况</h2></div>
+      <div class="tw">
+        <table>
+          <tbody>
+            <tr><th style="width:34%">考试名称</th><td>全国硕士研究生招生考试 · 英语（二）</td></tr>
+            <tr><th>适用对象</th><td>报考<b>专业学位硕士</b></td>（如 MBA、MPAcc、工程类专业学位等）的考生</td></tr>
+            <tr><th>计分</th><td>满分 <b>100 分</b>，计入总分</td></tr>
+            <tr><th>时长</th><td><b>180 分钟</b>（3 小时）</td></tr>
+            <tr><th>题型</th><td>完形填空、阅读理解（A/B）、英译汉、小作文、大作文，共 6 大板块</td></tr>
+            <tr><th>词汇要求</th><td>大纲规定 5500 词左右，实际难度大致对应 <b>CET-6</b> 水平</td></tr>
+            <tr><th>时间</th><td>每年 12 月下旬举行</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note tip">
+        <b>和英语一的关系</b>
+        <p>英语二在阅读题量（4 篇 vs 5 篇）、大作文题型（图画 vs 话题作文）上比英语一略简单，但分数占比完全一样。基础弱的话先把阅读 A 的 20 题做稳，再去抠完形。</p>
+      </div>
+    </section>
+
+    <section id="structure">
+      <div class="sec-head"><h2>二、试卷结构与分值构成</h2><span class="tag-line">合计 100 分，阅读 A 一题就值 2 分</span></div>
+      <div class="tw">
+        <table>
+          <thead><tr><th>部分</th><th class="num">分值</th><th class="num">题量</th><th class="num">建议用时</th><th>提分性价比</th><th>内容</th></tr></thead>
+          <tbody>
+            <tr><td>Part Ⅰ 完形填空</td><td class="num">5</td><td class="num">10</td><td class="num">15 分</td><td>低</td><td>1 篇约 300 词，每空 0.5 分</td></tr>
+            <tr><td>Part Ⅱ Section A 阅读 A</td><td class="num">40</td><td class="num">20</td><td class="num">70 分</td><td><b>最高</b></td><td>4 篇，每篇 5 题，每题 2 分</td></tr>
+            <tr><td>Part Ⅱ Section B 新题型</td><td class="num">10</td><td class="num">10</td><td class="num">20 分</td><td>中高</td><td>1 篇，10 题，每题 1 分</td></tr>
+            <tr><td>Part Ⅲ 翻译</td><td class="num">15</td><td class="num">1</td><td class="num">25 分</td><td>中</td><td>英译汉，1 段约 150 词</td></tr>
+            <tr><td>Part Ⅳ Section A 小作文</td><td class="num">10</td><td class="num">1</td><td class="num">20 分</td><td>高</td><td>应用文，约 100 词</td></tr>
+            <tr><td>Part Ⅳ Section B 大作文</td><td class="num">15</td><td class="num">1</td><td class="num">25 分</td><td>高</td><td>图画作文，约 150 词</td></tr>
+            <tr class="sum"><td>合计</td><td class="num">100</td><td class="num">43</td><td class="num">约 175 分</td><td>—</td><td>剩余约 5 分钟涂卡检查</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <b>分值请以官方大纲与真题首页为准</b>
+        <p>上表的 5 + 40 + 10 + 15 + 10 + 15 = <b>100 分</b>，与现行试卷结构一致。命题细节历年有微调，考前拿最近一套真题核对首页说明，不一致以真题为准。</p>
+      </div>
+    </section>
+
+    <section id="order">
+      <div class="sec-head"><h2>三、做题顺序与时间分配</h2><span class="tag-line">写作最先做，完形最后做</span></div>
+      <ol class="steps">
+        <li><b>小作文（20 分钟 · 10 分）</b>——刚开考头脑清醒，格式题最容易拿满。先把两段模板写在草稿纸上，套进去就收工。</li>
+        <li><b>大作文（25 分钟 · 15 分）</b>——趁写作手感还在。看图 → 定寓意 → 套三段式，不要临场现想结构。</li>
+        <li><b>阅读 A（70 分钟 · 40 分）</b>——最重要的一节，给足时间，单篇 15–18 分钟。</li>
+        <li><b>新题型（20 分钟 · 10 分）</b>——有套路可循，比完形好拿分，放阅读之后做。</li>
+        <li><b>翻译（25 分钟 · 15 分）</b>——独立模块，不受前面干扰，写完直接过一遍。</li>
+        <li><b>完形填空（15 分钟 · 5 分）</b>——一题 0.5 分，性价比最低，留到最后做，时间紧就做对 6 题交卷。</li>
+      </ol>
+      <div class="note bad">
+        <b>最常见的错误顺序</b>
+        <p>很多人从完形开始做，因为「放在最前面所以先做」。结果是 30 分钟过去只拿了 5 分，后面阅读 A 被压到 50 分钟内赶 20 题。顺序本身就是策略，务必按上表的顺序来。</p>
+      </div>
+    </section>
+
+    <section id="vocab">
+      <div class="sec-head"><h2>四、词汇：630 词 / 7 批 / 14 天</h2><span class="tag-line">每批 90 词 = 2 天 × 45 词</span></div>
+      <p>考研二词库按字母区间切成 7 批。和 CET-6 词表有大量重合——在<a href="words.html?exam=both">查词页选「两者都有」</a>可以看交集，这些词两边都要会。</p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>批次</th><th class="num">建议天数</th><th class="num">词数</th><th>任务</th><th></th></tr></thead>
+          <tbody>
+            <tr><td>第 1 批</td><td class="num">Day 1–2</td><td class="num">90</td><td>过词 + 听发音标拼写</td><td><a href="words.html?exam=ky2&batch=1">去查词 →</a></td></tr>
+            <tr><td>第 2 批</td><td class="num">Day 3–4</td><td class="num">90</td><td>过词 + 背名词辨析</td><td><a href="words.html?exam=ky2&batch=2">去查词 →</a></td></tr>
+            <tr><td>第 3 批</td><td class="num">Day 5–6</td><td class="num">90</td><td>过词 + 背动宾搭配</td><td><a href="words.html?exam=ky2&batch=3">去查词 →</a></td></tr>
+            <tr><td>第 4 批</td><td class="num">Day 7–8</td><td class="num">90</td><td>过词 + 半程抽背卡自测</td><td><a href="words.html?exam=ky2&batch=4">去查词 →</a></td></tr>
+            <tr><td>第 5 批</td><td class="num">Day 9–10</td><td class="num">90</td><td>过词 + 重点记抽象名词</td><td><a href="words.html?exam=ky2&batch=5">去查词 →</a></td></tr>
+            <tr><td>第 6 批</td><td class="num">Day 11–12</td><td class="num">90</td><td>过词 + 记经济与社会类术语</td><td><a href="words.html?exam=ky2&batch=6">去查词 →</a></td></tr>
+            <tr><td>第 7 批</td><td class="num">Day 13–14</td><td class="num">90</td><td>过词 + 整库抽背卡收网</td><td><a href="words.html?exam=ky2&batch=7">去查词 →</a></td></tr>
+            <tr class="sum"><td>合计</td><td class="num">14 天</td><td class="num">630</td><td>每天 45 词 × 2 遍</td><td><a href="words.html?exam=ky2">全部考研二词 →</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note ok">
+        <b>考研英语二的词汇复习重点</b>
+        <p>阅读 A 的 40 分里，大概有三分之一卡在<b>同义替换</b>上——你认识原文的词，却不认识选项里的替换词。所以背词时不要只看中文释义，要在查词页看<b>例句</b>，记住这个词在句子里怎么被使用、和哪些词一起出现。</p>
+      </div>
+    </section>
+
+    <section id="cloze">
+      <div class="sec-head"><h2>五、完形填空 · 5 分</h2><span class="tag-line">Part Ⅰ 英语知识运用 · 10 题 · 1 篇约 300 词</span></div>
+      <p>10 个空、5 分、一题 0.5 分，是整张卷子里性价比最低的部分。策略不是「全部做对」，而是<b>15 分钟内做对 6–7 题</b>。</p>
+      <h3>三大线索（按好用程度排序）</h3>
+      <ol class="steps">
+        <li><b>语法线索</b>——空格的词性、单复数、时态、介词搭配。这是最硬的一条，能直接排除两个选项。看到 <code>_______ of / in / on</code> 先找名词；看到 <code>the _______ + 空</code> 找名词或形容词。</li>
+        <li><b>语义线索</b>——上下文<b>同义复现</b>或<b>反义对比</b>。答案词往往在前后句以另一种形式出现过；如果前后都在说同一件事，答案就是同义词。</li>
+        <li><b>逻辑线索</b>——转折（<code>but / however / yet / although</code>）、因果（<code>so / therefore / as a result</code>）、并列（<code>and / also / in addition</code>）。逻辑关系一旦定下来，褒贬就定了。</li>
+      </ol>
+      <h3>15 分钟四步法</h3>
+      <ol class="steps">
+        <li><b>3 分钟通读</b>：先不看选项，通读全文抓主旨和情感基调（是褒还是贬）。</li>
+        <li><b>4 分钟挑容易的</b>：从语法线索最明显、有固定搭配的题开始做。</li>
+        <li><b>6 分钟啃剩下的</b>：用上下文复现和逻辑关系推。</li>
+        <li><b>2 分钟回读</b>：把答案代回原文读一遍，读不通的再改一次。</li>
+      </ol>
+      <div class="note tip">
+        <b>一个判断选项是否正确的土办法</b>
+        <p>把选项代回原句读出声。完形的正确选项一定读起来「顺」，错误选项读起来要么别扭要么重复。这个方法不高级，但对 0.5 分的题来说足够用了。</p>
+      </div>
+    </section>
+
+    <section id="reading">
+      <div class="sec-head"><h2>六、阅读 A · 40 分</h2><span class="tag-line">Part Ⅱ Section A · 4 篇 × 5 题 = 20 题，每题 2 分</span></div>
+      <div class="note tip">
+        <b>单篇 15–18 分钟铁律</b>
+        <p>20 题 70 分钟，平均每篇 17 分钟。任何一篇超过 20 分钟就要停下来——你在浪费的 5 分钟里，有 3 分钟本该属于另一篇。</p>
+      </div>
+      <h3>1. 三条铁律</h3>
+      <ol class="steps">
+        <li><b>先看题目，再看文章</b>——带着问题读文章，效率是通读再做题的两倍。先看题干和选项，圈出关键词。</li>
+        <li><b>原词定位 + 同义比对</b>——用题干里的专名、数字、大写字母、复数词回原文定位，答案几乎总是原文的<b>改写</b>而不是原句。</li>
+        <li><b>定位后只比对，不做推理延伸</b>——考研英语一最容易翻车的就是「我觉得原文想说的是」，原文没写的就是错的。</li>
+      </ol>
+      <h3>2. 五种题型与对应做法</h3>
+      <ul>
+        <li><b>细节题</b>（占七成以上）：关键词定位 → 定位句 + 前后句 → 和四个选项逐一比对。</li>
+        <li><b>主旨题</b>（<code>mainly discuss / best title / mainly about</code>）：看首段末句、末段首句、每段首句；答案通常在文章中部。</li>
+        <li><b>推断题</b>（<code>can be inferred / suggests / implies</code>）：答案要能从原文推出但原文没直接写，太直接的往往错。</li>
+        <li><b>词义题</b>（<code>refers to / most likely means</code>）：上下文同义或反义替换，把选项代回原句读一遍。</li>
+        <li><b>态度题</b>（<code>attitude / tone / author's view</code>）：找作者的评价性形容词和副词，警惕把第三方的观点当成作者态度。</li>
+      </ul>
+      <h3>3. 错误选项的五大特征（划掉就是分）</h3>
+      <ul>
+        <li><code>无中生有</code>——原文完全没有的信息</li>
+        <li><code>偷换概念</code>——把 A 的属性、范围、程度换成 B 的</li>
+        <li><code>以偏概全</code>——把一部分当全部，或把全部当一部分</li>
+        <li><code>因果倒置</code>——原文 A 导致 B，选项说 B 导致 A</li>
+        <li><code>张冠李戴</code>——把 A 说的安在 B 头上，或把作者的话安在研究上</li>
+      </ul>
+      <div class="note warn">
+        <b>阅读 A 最容易犯的错</b>
+        <p>选了一个<b>看着对</b>但原文没有的选项。考研英语阅读的正确答案一定在原文里，你「凭常识觉得对」的那一个，八成是无中生有。养成一个习惯：做完每题，用手指在原文上指一遍答案句，指不出来就重做。</p>
+      </div>
+    </section>
+
+    <section id="newtype">
+      <div class="sec-head"><h2>七、新题型 · 10 分</h2><span class="tag-line">Part Ⅱ Section B · 1 篇 · 10 题 · 每题 1 分</span></div>
+      <p>新题型是<b>三种题型轮换</b>的，不是固定考一种，所以每年都不一样。别去背「今年考什么」，把三种都练熟。</p>
+      <div class="cards">
+        <div class="card">
+          <div class="ct">段落排序题</div>
+          <div class="cd">给一段文章和若干打乱的段落，按顺序排。核心是抓<b>代词指代</b>和<b>逻辑连接</b>：某段开头出现 <code>it</code> / <code>these</code>，就说明前面一定有个对应的主语。</div>
+        </div>
+        <div class="card">
+          <div class="ct">小标题匹配</div>
+          <div class="cd">给每个段落选一个小标题。先给段落写一句话总结，再和标题<b>同义比对</b>。注意标题常常是段落的改写，不一定是原词。</div>
+        </div>
+        <div class="card">
+          <div class="ct">选段填空</div>
+          <div class="cd">文章有若干空，从给定的段落里选填。每个空的<b>前一句和后一句</b>是线索：看前句结尾和后句开头在说什么，找能接得上的段落。</div>
+        </div>
+      </div>
+      <h3>三个救命信号词</h3>
+      <ol class="steps">
+        <li><b>代词指代</b>：<code>it / this / these / such / he / his</code> 出现的地方，前面一定有指代对象。这是最强的定位信号。</li>
+        <li><b>连接词</b>：<code>however / therefore / moreover / in addition / for example</code> 直接告诉你两段之间的关系，转折后填反义的，并列后填同向的。</li>
+        <li><b>词汇复现</b>：同一个词根（<code>develop / development / developed</code>）在相邻两段重复出现，通常说明这两段是连着的。</li>
+      </ol>
+      <h3>做题步骤</h3>
+      <ol class="steps">
+        <li><b>先读题干定题型</b>：是排序、匹配还是填空，三种做法完全不同。</li>
+        <li><b>通读文章抓框架</b>：不看选项，先弄清楚文章在讲什么、分成几个部分。</li>
+        <li><b>用信号词锁定</b>：先做代词指代最明显的那几题，往往能一次定 3–4 个。</li>
+        <li><b>排除法收尾</b>：剩下 2–3 题用「哪个最不可能是它」来定。</li>
+        <li><b>20 分钟到点就走</b>：10 题 10 分，每题 1 分，不值得为了 1 题花 8 分钟。</li>
+      </ol>
+    </section>
+
+    <section id="translation">
+      <div class="sec-head"><h2>八、翻译 · 15 分</h2><span class="tag-line">Part Ⅲ · 英译汉 · 一段约 150 词</span></div>
+      <p>考研英语二翻译考<b>经济与社会</b>话题，比英语一简单，句式也没有英语一那么绕。15 分里的 8–10 分靠<b>不犯错</b>而不是靠写出华丽句子。</p>
+      <h3>1. 六步法</h3>
+      <ol class="steps">
+        <li><b>通读全文</b>：15 秒，搞清楚这段话在讲什么话题。</li>
+        <li><b>切句</b>：按句号和分号切出 5–7 个小句，一句一句翻，不要整段照搬。</li>
+        <li><b>找主干</b>：每个小句先找「谁做什么」，主谓宾立住再处理修饰。</li>
+        <li><b>处理长定语、长状语</b>：定语从句译成「……的」或单独一句；后置定语前置，前置状语后置。</li>
+        <li><b>调整语序</b>：中文先状语后中心词，英文相反，翻译时反过来摆。</li>
+        <li><b>回读润色</b>：读一遍中文，去掉「的……的……的」这类不通顺的地方。</li>
+      </ol>
+      <h3>2. 六大高频结构</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>结构</th><th>英文特征</th><th>译法</th></tr></thead>
+          <tbody>
+            <tr><td>定语从句</td><td><code>which / that / where / who</code> 引导</td><td>译成「……的」，过长时另起一句</td></tr>
+            <tr><td>非谓语动词</td><td><code>to do / doing / done</code></td><td>to do 译「为了……」；doing 译「正在……」；done 译被动</td></tr>
+            <tr><td>同位语</td><td><code>名词 + that / which + 解释</code></td><td>译成破折号或直接解释</td></tr>
+            <tr><td>强调句</td><td><code>It is ... that / who ...</code></td><td>译成「正是……」或「……就是……」</td></tr>
+            <tr><td>倒装句</td><td><code>Not only ... / Never ... / Only by ...</code></td><td>先翻正常语序，再把语气加回来</td></tr>
+            <tr><td>被动语态</td><td><code>is / was + 过去分词</code></td><td>加「被」「由」「受到」，或用无主句</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>3. 经济与社会类高频术语</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>英文</th><th>中文</th></tr></thead>
+          <tbody>
+            <tr><td><code>economic growth / development</code></td><td>经济增长 / 发展</td></tr>
+            <tr><td><code>gini coefficient</code></td><td>基尼系数</td></tr>
+            <tr><td><code>unemployment rate</code></td><td>失业率</td></tr>
+            <tr><td><code>consumer spending</code></td><td>消费支出</td></tr>
+            <tr><td><code>infrastructure</code></td><td>基础设施</td></tr>
+            <tr><td><code>health care system</code></td><td>医疗体系</td></tr>
+            <tr><td><code>education reform</code></td><td>教育改革</td></tr>
+            <tr><td><code>aging population</code></td><td>人口老龄化</td></tr>
+            <tr><td><code>environmental protection</code></td><td>环境保护</td></tr>
+            <tr><td><code>to be attributed to</code></td><td>归因于</td></tr>
+            <tr><td><code>as a result of</code></td><td>由于</td></tr>
+            <tr><td><code>not only ... but also</code></td><td>不仅……而且</td></tr>
+            <tr><td><code>there is no doubt that</code></td><td>毫无疑问</td></tr>
+            <tr><td><code>by far the most</code></td><td>迄今最……</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note bad">
+        <b>翻译最忌讳：整段直译</b>
+        <p>整段照字面翻，几乎一定会出现「的……的……的」这种不通顺的中文，阅卷老师扣分点在「不通顺」而不是「写错了词」。宁可句子拆细，也不要写一个翻不动的长句。</p>
+      </div>
+    </section>
+
+    <section id="writing">
+      <div class="sec-head"><h2>九、写作 · Part A 10 分 + Part B 15 分</h2><span class="tag-line">写作最先做，趁头脑最清醒</span></div>
+
+      <h3>Part A 应用文 · 10 分 · 约 100 词</h3>
+      <p>小作文考<b>通知、建议信、感谢信、道歉信、邀请函、投诉信</b>。格式比内容更容易丢分，先记格式。</p>
+      <p><b>三段式：</b></p>
+      <ol class="steps">
+        <li><b>目的段</b>：一句话说清写这封信的原因（<code>I am writing to …</code>）。</li>
+        <li><b>内容段</b>：按题目要求的要点逐条写，每条一句，别展开议论。</li>
+        <li><b>收尾段</b>：期待回信或表示感谢（<code>Looking forward to your early reply.</code>）。</li>
+      </ol>
+      <p><b>四类应用文功能句：</b></p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>类型</th><th>开头句</th><th>收尾句</th></tr></thead>
+          <tbody>
+            <tr><td>建议信</td><td><code>I am writing to offer some suggestions on …</code></td><td><code>I hope you will find these suggestions helpful.</code></td></tr>
+            <tr><td>感谢信</td><td><code>I am writing to express my sincere gratitude for …</code></td><td><code>Once again, thank you for your kindness.</code></td></tr>
+            <tr><td>道歉信</td><td><code>I am writing to apologize for …</code></td><td><code>I promise this will not happen again.</code></td></tr>
+            <tr><td>通知</td><td><code>The Students' Union is going to hold …</code></td><td><code>All students are welcome to attend.</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>加分表达（把同样的意思说得更得体）：</b></p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>位置</th><th>可直接套的好句</th></tr></thead>
+          <tbody>
+            <tr><td>目的段</td><td><code>I am writing with the intention of offering you some suggestions on ….</code></td></tr>
+            <tr><td>目的段</td><td><code>My purpose in writing this letter is to inform you that ….</code></td></tr>
+            <tr><td>目的段</td><td><code>Please allow me to take this opportunity to express my heartfelt gratitude for ….</code></td></tr>
+            <tr><td>提建议</td><td><code>It would be a good idea if you could ….</code></td></tr>
+            <tr><td>提建议</td><td><code>I would appreciate it very much if you could ….</code></td></tr>
+            <tr><td>提建议</td><td><code>You are advised to … in order to ….</code></td></tr>
+            <tr><td>收尾</td><td><code>Your prompt response would be highly appreciated.</code></td></tr>
+            <tr><td>收尾</td><td><code>I would be grateful if you could spare some time to consider ….</code></td></tr>
+            <tr><td>收尾</td><td><code>Thank you in advance for your understanding and cooperation.</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>常用加分词（每个意思配 1–2 个同义说法 + 能直接套的词组）：</b></p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>中文意思</th><th>同义替换（1–2 个）</th><th>常用词组（连着上下文直接套）</th></tr></thead>
+          <tbody>
+            <tr><td>感激、感谢</td><td><code>appreciate</code> · <code>be grateful for</code></td><td><code>I would appreciate it if you could …</code>；<code>my sincere gratitude for …</code></td></tr>
+            <tr><td>及时的</td><td><code>prompt</code> · <code>timely</code></td><td><code>your prompt response would be highly appreciated</code></td></tr>
+            <tr><td>诚挚的、由衷的</td><td><code>heartfelt</code> · <code>sincere</code></td><td><code>my heartfelt gratitude</code>；<code>express my sincere thanks for …</code></td></tr>
+            <tr><td>提出建议</td><td><code>offer suggestions</code> · <code>advise</code></td><td><code>offer some suggestions on …</code>；<code>You are advised to … in order to …</code></td></tr>
+            <tr><td>投入、致力于</td><td><code>devote … to</code> · <code>be committed to</code></td><td><code>devote oneself to …</code></td></tr>
+            <tr><td>合作、配合</td><td><code>cooperation</code> · <code>collaborate</code></td><td><code>thank you for your understanding and cooperation</code></td></tr>
+            <tr><td>使…知晓</td><td><code>keep … informed of</code> · <code>notify</code></td><td><code>keep you informed of the latest developments</code></td></tr>
+            <tr><td>期待回复</td><td><code>look forward to</code> · <code>await</code></td><td><code>Looking forward to your early reply.</code></td></tr>
+            <tr><td>抱歉、致歉</td><td><code>apologize for</code> · <code>make an apology</code></td><td><code>I am writing to apologize for …</code>；<code>I owe you an apology for …</code></td></tr>
+            <tr><td>邀请</td><td><code>invite</code> · <code>extend an invitation to</code></td><td><code>I would like to invite you to …</code>；<code>All students are welcome to attend.</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>落款：</b>收件人姓名知道用 <code>Yours sincerely,</code>，不知道用 <code>Yours faithfully,</code>。</p>
+      <div class="note warn">
+        <b>格式铁律</b>
+        <p>称呼（<code>Dear Sir or Madam,</code>）在正文前，落款（<code>Yours sincerely,</code> + 姓名）在正文后，通知类文章标题居中、日期在标题下方。格式错一个地方大概扣 1–2 分，而格式是<b>可以完全避免</b>的错误。</p>
+      </div>
+
+      <h3>Part B 图画作文 · 15 分 · 约 150 词</h3>
+      <p>英语二大作文固定考<b>图画</b>（偶尔是漫画），三段式是铁律。</p>
+      <ol class="steps">
+        <li><b>第一段：描述图画</b>（40 词左右）——客观描述画面，不要急着评论。用 <code>As is vividly shown in the cartoon, …</code> 开头，写 2–3 个画面细节。</li>
+        <li><b>第二段：揭示寓意</b>（60 词左右）——点出图画想说明什么道理，用 <code>The cartoon is intended to convey the idea that …</code>。这一段是<b>得分的关键</b>，寓意一定要扣住题目给的关键词。</li>
+        <li><b>第三段：评论与行动</b>（50 词左右）——先说这个现象/道理的重要性，再给个人层面的行动建议，用 <code>In my opinion, …</code> 引出。</li>
+      </ol>
+      <p><b>三段式模板（背下来直接套）：</b></p>
+      <div class="sub">
+        <h4>可用模板</h4>
+        <p><code>As is vividly depicted in the cartoon, ... .</code> 描述画面。</p>
+        <p><code>It is not hard to see that this cartoon is intended to convey the message that ... , which has become an increasingly prominent phenomenon in contemporary society.</code> 揭示寓意。</p>
+        <p><code>In my opinion, ... . To put it in a more concrete way, ... . Only in this way can we ... .</code> 评论与行动。</p>
+      </div>
+      <p><b>描述画面的好句（第一段）：</b></p>
+      <div class="sub">
+        <p><code>As is vividly depicted in the cartoon, …</code></p>
+        <p><code>What is depicted in the picture is that …</code></p>
+        <p>人物动作：<b>are engrossed in …</b> 沉浸于 / <b>struggle to …</b> 挣扎 / <b>is filled with …</b> 充满</p>
+      </div>
+      <p><b>揭示寓意的好句（第二段，得分关键）：</b></p>
+      <div class="sub">
+        <p><code>The symbolic meaning of the cartoon is that …</code></p>
+        <p><code>This cartoon is intended to tell us that …</code></p>
+        <p><code>The author is trying to call attention to the issue of …</code></p>
+        <p><code>The phenomenon depicted in the picture is not uncommon in our daily life.</code></p>
+      </div>
+      <p><b>评论与行动（第三段）：</b></p>
+      <div class="sub">
+        <p><code>It is every individual's responsibility to …</code></p>
+        <p><code>We should never underestimate the importance of …</code></p>
+        <p><code>Only in this way can we …</code></p>
+        <p><code>Let us take immediate action to …</code></p>
+      </div>
+      <p><b>名言引入（第一或第二段都行）：</b><code>As an old saying goes, "…".</code> / <code>As the great philosopher … once said, "…".</code> — 只引你确定无误、能写全的一句，引错了比不引还差。</p>
+      <p><b>高频话题万能短语（按考题对着套）：</b></p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>话题</th><th>短语</th></tr></thead>
+          <tbody>
+            <tr><td>传统文化</td><td><code>inherit and carry on the excellent traditional Chinese culture</code></td></tr>
+            <tr><td>科技</td><td><code>embrace the digital age</code> / <code>rely too heavily on technology</code></td></tr>
+            <tr><td>环保</td><td><code>ecological conservation</code> / <code>sustainable development</code></td></tr>
+            <tr><td>诚信</td><td><code>integrity</code> / <code>be honest and trustworthy</code></td></tr>
+            <tr><td>团队</td><td><code>team spirit</code> / <code>work together in harmony</code></td></tr>
+            <tr><td>创新</td><td><code>innovation</code> / <code>foster creativity</code></td></tr>
+            <tr><td>健康</td><td><code>a healthy lifestyle</code> / <code>strike a balance between work and life</code></td></tr>
+            <tr><td>教育</td><td><code>broaden one's horizons</code> / <code>lifelong learning</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>常用加分词（每个意思配 1–2 个同义说法 + 能直接套的词组）：</b></p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>中文意思</th><th>同义替换（1–2 个）</th><th>常用词组（连着上下文直接套）</th></tr></thead>
+          <tbody>
+            <tr><td>描绘（画面）</td><td><code>depict</code> · <code>illustrate</code></td><td><code>As is vividly depicted in the cartoon, …</code>；<code>What is depicted in the picture is that …</code></td></tr>
+            <tr><td>传达（寓意）</td><td><code>convey</code> · <code>signify</code></td><td><code>convey the message that …</code>；<code>the symbolic meaning of …</code></td></tr>
+            <tr><td>现象、司空见惯</td><td><code>phenomenon</code> · <code>commonplace</code></td><td><code>…is not uncommon in our daily life</code>；<code>an increasingly prominent phenomenon</code></td></tr>
+            <tr><td>挣扎、努力</td><td><code>struggle to</code> · <code>make efforts to</code></td><td><code>struggle to keep up with …</code></td></tr>
+            <tr><td>强调、凸显</td><td><code>emphasize</code> · <code>underscore</code></td><td><code>underscore the importance of …</code>；<code>call attention to the issue of …</code></td></tr>
+            <tr><td>低估</td><td><code>underestimate</code> · <code>overlook</code></td><td><code>We should never underestimate the importance of …</code></td></tr>
+            <tr><td>责任</td><td><code>responsibility</code> · <code>be accountable for</code></td><td><code>It is every individual's responsibility to …</code></td></tr>
+            <tr><td>采取行动</td><td><code>take immediate action</code> · <code>act on the spot</code></td><td><code>Let us take immediate action to …</code></td></tr>
+            <tr><td>越来越突出</td><td><code>a growing number of</code> · <code>an increasing number of</code> · <code>increasingly</code></td><td><code>…has become an increasingly prominent phenomenon</code></td></tr>
+            <tr><td>促进、培育</td><td><code>foster</code> · <code>cultivate</code></td><td><code>foster creativity and innovation</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><b>高频话题（近十年反复出现）：</b>传统文化与传承、科技发展对生活的影响、环保意识与可持续发展、诚信与道德、团队合作、创新精神、健康生活方式、教育与学习方法。</p>
+      <div class="note ok">
+        <b>大作文的得分逻辑</b>
+        <p>阅卷老师平均只花 30–40 秒看一篇文章。他们看的是<b>结构完整、要点齐全、语言无明显错误</b>，不是文采。把三段式套稳、字数写够、没有语法硬伤，10–12 分是稳的。</p>
+      </div>
+    </section>
+
+    <section id="plan">
+      <div class="sec-head"><h2>十、30 / 60 / 90 天冲刺计划</h2><span class="tag-line">按离考试的时间选一个</span></div>
+      <div class="tw">
+        <table>
+          <thead><tr><th>阶段</th><th>时间</th><th>核心任务</th><th>每日投入</th><th>目标</th></tr></thead>
+          <tbody>
+            <tr><td><b>90 天</b></td><td>基础薄弱</td><td>过完两遍词表；阅读真题按题型分练；小作文与大作文各 5 篇；翻译每周一篇</td><td>2–2.5 小时</td><td>60–65 分</td></tr>
+            <tr><td><b>60 天</b></td><td>有一定基础</td><td>每周 1 套完整真题严格限时；错题按题型归类；大小作文每周各 2 篇并批改；新题型每周 2 篇</td><td>2.5–3 小时</td><td>65–75 分</td></tr>
+            <tr><td><b>30 天</b></td><td>冲刺</td><td>每周一套完整模拟 + 复盘；模板定稿不再改；只看错题本与生词本；保持手感不刷新题</td><td>3 小时</td><td>75–85 分</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>每日 3 小时模板</h3>
+      <ol class="steps">
+        <li><b>30 分钟词汇</b>：新词 20 个 + 回扫前日 25 个，用<a href="words.html">抽背卡</a>自测而不是默读。</li>
+        <li><b>70 分钟阅读 A</b>：2 篇真题，严格每篇 15 分钟，逐题写「原文定位句 → 为什么选它」。</li>
+        <li><b>40 分钟写作或翻译</b>：隔天轮换，写完后对照模板找差距。</li>
+        <li><b>40 分钟新题型 + 完形</b>：各 1 篇，重点是用信号词和语法线索做，而不是靠语感。</li>
+      </ol>
+      <h3>目标分参考</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>目标总分</th><th>阅读 A</th><th>新题型</th><th>翻译</th><th>小作文</th><th>大作文</th><th>完形</th></tr></thead>
+          <tbody>
+            <tr><td><b>70 分</b></td><td class="num">28</td><td class="num">7</td><td class="num">11</td><td class="num">8</td><td class="num">11</td><td class="num">5</td></tr>
+            <tr><td><b>75 分</b></td><td class="num">32</td><td class="num">8</td><td class="num">12</td><td class="num">8</td><td class="num">12</td><td class="num">3</td></tr>
+            <tr><td><b>80 分</b></td><td class="num">36</td><td class="num">8</td><td class="num">13</td><td class="num">9</td><td class="num">12</td><td class="num">2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note warn">
+        <b>三个必须提前想清楚的事</b>
+        <p>① 你的时间预算是多少——30 天计划和 90 天计划是两件事，不要拿 90 天计划硬套 30 天；② 你更弱的模块是阅读还是写作——阅读弱先砸阅读，写作弱就每周固定两篇批改；③ 有没有批改渠道——自己写完不批改的写作练习，效率只有批改过的一半。</p>
+      </div>
+    </section>
+
+    <nav class="pager">
+      <a href="cet6.html"><span>← CET-6 复习方案</span>710 分制 · 4 阶段</a>
+      <a href="index.html"><span>回首页</span>复习站总览</a>
+      <a href="words.html?exam=ky2" class="next"><span>考研二词表 →</span>630 词 · 按批次查</a>
+    </nav>
+
+    <div class="foot">
+      <span>考研英语二备考策略 · 分值构成 5+40+10+15+10+15 = 100，请以官方大纲与真题首页为准</span>
+      <span>纯静态站点 · 无 CDN · 数据不出本机</span>
+    </div>
+  </main>
+</div>
+
+<div class="mobbar">
+  <div class="mb">
+    <div class="lb"><span>CET-6</span><b data-prog-num="cet6">0/720</b></div>
+    <div class="tr"><i data-prog="cet6"></i></div>
+    <div class="lb"><span>考研二</span><b data-prog-num="ky2">0/630</b></div>
+    <div class="tr"><i class="b" data-prog="ky2"></i></div>
+  </div>
+  <a class="go" href="words.html" aria-label="去查词">📖</a>
+</div>
+
+<div class="scrim" id="scrim"></div>
+
+<script src="assets/words.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

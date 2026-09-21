@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CET-6 & 考研英语二 复习站 · 复习方案 / 备考策略 / 1350 词在线查词</title>
+<meta name="description" content="CET-6 复习方案与考研英语二备考策略。内置 1350 条词条（1320 个不重复单词）的即时查词：英文、音标、中文释义、例句、词性全都能搜，支持发音、掌握进度跟踪与抽背卡。纯静态页面，打开即用，不联网、不上传数据。">
+<meta name="theme-color" content="#faf9f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f5bd0'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3E%E8%AF%8D%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="icon menu-btn" id="menuBtn" aria-label="打开菜单">☰</button>
+  <a class="brand" href="index.html">
+    <span class="dot"></span><span class="dot b"></span>
+    <span>考研英语 · 复习站</span>
+  </a>
+  <div class="qjump" id="qjump">
+    <span class="ki">🔎</span>
+    <input type="search" placeholder="查词（英文 / 音标 / 中文）  按 / 聚焦" aria-label="查词">
+    <button class="go" type="button">跳转</button>
+  </div>
+  <div class="tools">
+    <button class="icon" data-theme-btn aria-label="切换深浅色">🌙</button>
+    <a class="icon" href="words.html" aria-label="单词查询">📖</a>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="nav" id="nav" data-cur="index">
+    <h4>站点</h4>
+    <ul>
+      <li><a class="on" href="index.html">首页 · 从这里开始</a></li>
+      <li><a href="cet6.html">CET-6 复习方案</a></li>
+      <li><a href="ky2.html">考研英语二 备考策略</a></li>
+      <li><a href="words.html">单词查询（大数据）</a></li>
+    </ul>
+    <h4>进度</h4>
+    <div class="stats">
+      <div class="row"><span>CET-6</span><span class="st st-cet6">0 / 720</span></div>
+      <div class="bar"><i data-prog="cet6"></i></div>
+      <div class="row"><span>考研英语二</span><span class="st st-ky2">0 / 630</span></div>
+      <div class="bar"><i class="b" data-prog="ky2"></i></div>
+      <div class="note" id="statNote">进度自动保存在本机浏览器</div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">纯静态站点 · 打开即用 · 不联网不上传</div>
+      <h1>CET-6 复习方案 <span class="sep" style="color:var(--muted)">&</span> 考研英语二备考策略
+        <span class="sub">一份可直接执行的计划 + 一份能在整库词表里即时检索的查词工具</span>
+      </h1>
+      <p class="lead">词表不是看完就算数，是查得到、记得住、考场上用得出来。这里把两件事放在一起：左边是计划，右边是工具——1350 条词条、1320 个不重复单词，英文、音标、中文释义、例句、词性全部能搜，搜不出来还会猜你想找哪个词。</p>
+
+      <div class="hero-acts">
+        <a class="btn pri big" href="words.html">🔎 直接查词</a>
+        <a class="btn pri big" href="cet6.html">CET-6 复习方案</a>
+        <a class="btn ky2 big" href="ky2.html">考研英语二备考策略</a>
+        <a class="btn ghost" href="words.html?st=no">未掌握的词</a>
+      </div>
+
+      <div class="hero-prog">
+        <div class="hp">
+          <div class="hp-t"><b>CET-6 已掌握</b><span class="st st-cet6" data-prog-num="cet6">0/720</span></div>
+          <div class="bar"><i data-prog="cet6"></i></div>
+          <p class="hint" style="margin:0"><a href="cet6.html">8 个批次 · 建议 16 天过完一遍</a></p>
+        </div>
+        <div class="hp">
+          <div class="hp-t"><b>考研英语二 已掌握</b><span class="st st-ky2" data-prog-num="ky2">0/630</span></div>
+          <div class="bar"><i class="b" data-prog="ky2"></i></div>
+          <p class="hint" style="margin:0"><a href="ky2.html">7 个批次 · 建议 14 天过完一遍</a></p>
+        </div>
+      </div>
+
+      <div class="hp-meta">
+        <span><b>1320</b> 个不重复单词</span>
+        <span><b>1350</b> 条词条记录</span>
+        <span><b>15</b> 个学习批次</span>
+        <span><b>30</b> 词两本词表都有</span>
+      </div>
+    </div>
+
+    <section>
+      <div class="sec-head"><h2>三页内容</h2><span class="tag-line">按你的考试挑一个，另一本也不用白学</span></div>
+      <div class="cards">
+        <a class="card c6" href="cet6.html">
+          <div class="ct">CET-6 复习方案</div>
+          <div class="cd">710 分制 · 约 130 分钟 · 425 参照线。试卷结构、四阶段时间表、写作/听力/阅读/翻译逐题型的解题流程，外加 16 天词汇表安排。</div>
+          <div class="cg">720 词 · 8 批</div>
+          <div class="go">看方案 →</div>
+        </a>
+        <a class="card k2" href="ky2.html">
+          <div class="ct">考研英语二 备考策略</div>
+          <div class="cd">满分 100 分 · 180 分钟。做完形、阅读、新题型、翻译、小作文、大作文的先后顺序与各自套路，配 30/60/90 天冲刺计划。</div>
+          <div class="cg">630 词 · 7 批</div>
+          <div class="go">看策略 →</div>
+        </a>
+        <a class="card" href="words.html">
+          <div class="ct">单词查询</div>
+          <div class="cd">整库检索：英文 / 音标 / 中文释义 / 例句 / 词性。点击发音，标记已掌握，按批次过词，抽背卡自测。</div>
+          <div class="cg">1350 条词条</div>
+          <div class="go">去查词 →</div>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2>查词怎么用最顺手</h2></div>
+      <div class="sub">
+        <h4>🔎 搜索什么都能搜</h4>
+        <p>不只是英文。输入 <code>/aɪ/</code> 能搜出所有含这个音标的词，输入「翻译」「增长」能搜中文释义，输入 <code>be accused of</code> 能在例句里找到 <em>accuse</em>，输入 <code>adj.</code> 能筛词性。搜不到时会按拼写相似度给出「你是不是要找」的建议。</p>
+      </div>
+      <div class="sub">
+        <h4>📊 进度只存在你自己的浏览器里</h4>
+        <p>点词条右上角的 <code>CET-6 ✓</code> / <code>考研二 ✓</code> 标记是否掌握，站点用浏览器的 <code>localStorage</code> 记住——不注册、不登录、不上传、不联网。换浏览器或清空站点数据，进度会归零，所以建议固定用一个浏览器学习。</p>
+        <p class="hint" style="margin:0"><a href="words.html">在查词页底部可以一键清空全部进度</a>。</p>
+      </div>
+      <div class="sub">
+        <h4>⌨️ 键盘快捷键</h4>
+        <p><kbd>/</kbd> 聚焦搜索框 · <kbd>Esc</kbd> 清空 · <kbd>↑</kbd><kbd>↓</kbd> 在结果间移动 · <kbd>Enter</kbd> 记下这次搜索 · <kbd>Space</kbd> 切换当前词条的掌握状态。</p>
+      </div>
+      <div class="sub">
+        <h4>🗓️ 词汇计划和批次是对齐的</h4>
+        <p>每批 90 词 = 2 天 × 45 词。CET-6 的 8 批对应 Day 1–16，考研二的 7 批对应 Day 1–14。在<a href="words.html#batches">查词页底部的批次网格</a>里能看到每一批的完成比例，整批标完就不用再回头一个个勾。</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-head"><h2>这个站点的边界</h2></div>
+      <div class="note warn">
+        <b>关于分值</b>
+        <p>CET-6 的分数构成（写作 106.5 / 听力 248.5 / 阅读 248.5 / 翻译 106.5，满分 710）按现行试卷结构写，各节题量与权重请以你手上最新真题首页为准。考研英语二页面只给满分 100 分、180 分钟与题量，<b>没有列各部分分值</b>——那部分请以官方大纲为准，避免记忆错误。</p>
+      </div>
+      <div class="note tip">
+        <b>关于数据</b>
+        <p>词条内容（单词、音标、词性、释义、例句）来自随站点一起提供的词库文件，共 1350 条。释义以常见用法为准，个别专业含义、法律含义或方言含义未收录；查不到或想确认的词义，请以权威词典为准。</p>
+      </div>
+    </section>
+
+    <nav class="pager">
+      <a href="cet6.html" class="next"><span>CET-6 复习方案</span>710 分制 · 4 阶段 · 逐题型</a>
+      <a href="ky2.html" class="next"><span>考研英语二备考策略</span>满分 100 · 6 大题 · 做题顺序</a>
+    </nav>
+
+    <div class="foot">
+      <span>个人学习用站点 · 数据随站点提供 · 词表内容以权威词典为准</span>
+      <span>纯静态 · 无 CDN · 无外部字体 · 数据不出本机 · 数据生成于 2026-09-20</span>
+    </div>
+  </main>
+</div>
+
+<div class="mobbar">
+  <div class="mb">
+    <div class="lb"><span>CET-6</span><b data-prog-num="cet6">0/720</b></div>
+    <div class="tr"><i data-prog="cet6"></i></div>
+    <div class="lb"><span>考研二</span><b data-prog-num="ky2">0/630</b></div>
+    <div class="tr"><i class="b" data-prog="ky2"></i></div>
+  </div>
+  <a class="go" href="words.html" aria-label="去查词">📖</a>
+</div>
+
+<div class="scrim" id="scrim"></div>
+
+<script src="assets/words.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
